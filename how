@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -e "\033[33;1mPilih Angka 1 untuk memulai"
+sleep 5;
+echo -e "\033[33;1mPilih Angka 3 untuk kembali"
+echo ""
+echo ""
+echo -e "\033[31;1mKetik 1 untuk kembali ke menu tools"
+date | lolcat
+echo -e "\033[37;1m"
+read -p "choose@localhost:~# " anjing
+
+if [ $anjing = 1 ];
+then
+./cash
+fi
