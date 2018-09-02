@@ -1,2 +1,4 @@
 # gpclaim
-for gpclaimer for Android
+untuk gpclaimer untuk Android
+chmod +x cash
+chmod +x how
